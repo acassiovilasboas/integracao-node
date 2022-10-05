@@ -29,4 +29,4 @@ server.get('/comensais', (req, res) => {
 
 // habilitando a porta 3000 para responder como
 // servidor da aplicação
-server.listen(80)
+server.listen(process.env.PORT)
