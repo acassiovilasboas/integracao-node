@@ -18,7 +18,7 @@ const deathEaters = [
 ]
 
 // criando a rota
-server.get('/api', (req, res) => {
+server.get('/', (req, res) => {
     return res.json( { message: "resposta da minha api" } )
 })
 
